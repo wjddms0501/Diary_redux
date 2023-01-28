@@ -1,0 +1,39 @@
+
+JSON server
+// json - server 설치
+yarn add json-server
+
+// 해당 포트 번호로 json서버를 연결해야 한다 => 그래야 DB데이터 가져옴
+// 포트번호는 바뀔 수 있음
+yarn json-server --watch db.json --port 3005
+
+
+redux 
+yarn add redux, react-redux
+yarn add react-redux @reduxjs/toolkit
+
+
+router
+yarn add react-router-dom
+
+
+style
+yarn add styled-components
+
+
+axios
+yarn add axios
+
+
+-----------------------------------------------------
+오늘 다운받을 것 
+yarn add axios
+yarn add react-redux @reduxjs/toolkit
+yarn add json-server
+
+
+다운받고 리액트 start할때
+터미널 2개 켜서 아래 코드 각각 쳐서 
+리액트서버랑 json서버 같이 켜줘야함 (포트번호 3005)
+yarn start
+yarn json-server --watch db.json --port 3005

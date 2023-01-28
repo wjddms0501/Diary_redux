@@ -1,0 +1,28 @@
+/* 기본 스타일 
+최상위 CSS 폴더라서 기본적인거 저장 한번 해봤어요 */
+
+/* reset style */
+/* @import "./reset.css"; */
+
+/* 글꼴 -> 
+나중에 추가하고 싶은거 눈누, 구글폰트에서 @import가져와서
+여기에 복사해놓고 font-family로 불러서 쓰심됨니다(아마..) */
+
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EF_Diary";
+  src: url("./fonts/EF_Diary.ttf");
+}
+
+.App {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "NanumSquareNeo-Variable";
+}
